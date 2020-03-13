@@ -2,11 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -14,7 +9,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,6 +23,45 @@
   color: #61dafb;
 }
 
+/* input { 
+  width: 100%; 
+} */
+/* .unit1{
+  width: 50px;
+}
+.unit2{
+  width: 50px;
+}
+#space{
+  width: 50px;
+}
+#space1{
+  width: 50px;
+}
+.main{
+  border:2px inset black;
+  display:flex;
+  text-align:center;
+  padding:5%;
+  margin-top:20%;
+  margin:auto;
+  width:30%;
+}
+
+.dev{
+  margin: 10% 0px;
+  padding:5%;
+  width: 22%;
+  
+}
+
+.heading{
+  text-Align: center;
+  position:absolute;
+  width:200%;
+} */
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +69,65 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+.selectors{
+  margin-top: 20%;
+  height: 15%;
+  margin: 4% 4%;
+  width:  93%;
+}
+.border{
+  width: 60%;
+  border: 2px solid rgb(114, 91, 91);
+  margin-top: 0%;
+  margin-left: 20%;
+  
+}
+.textfield1{
+  width : 38%;
+  height: 30px;
+  
+  
+}
+
+.textfield{
+  width : 38%;
+  height: 30px;
+  
+}
+.textdivstyle{
+  margin-left: 7px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+.electorDev{
+  margin-left: 7px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+
+.selectors2{
+  height: 30px;
+  margin-top: 0px;
+  margin-left: 6.5%;
+  margin-right: 5.75%;
+  width: 38%; 
+  
+}
+.selectors3{
+  height: 30px;
+  width: 38%;
+  margin-left: 5.75%;
+  
+}
+.button{
+  margin-top: 05%;
+  margin-left: 45%; 
 }
